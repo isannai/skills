@@ -1,0 +1,11 @@
+{
+  "type": "skill",
+  "version": "1.0",
+  "summary": "deep research with citations",
+  "tags": "research",
+  "tools": ["web/search", "web/fetch"],
+  "entry": "SKILL.md",
+  "files": [
+    { "path": "SKILL.md" }
+  ]
+}
