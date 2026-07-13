@@ -1,5 +1,6 @@
 {
   "type": "skill",
+  "author": "isann",
   "version": "1.0",
   "summary": "deep research with citations",
   "tags": "research",
@@ -8,5 +9,6 @@
   "files": [
     { "path": "SKILL.md" },
     { "path": "references/tone.md" }
-  ]
+  ],
+  "metadata": { "author": "alice" }
 }
