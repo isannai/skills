@@ -1,6 +1,7 @@
 ---
 name: research-asst
 description: deep research with citations
+tags: [research, web] 
 tools: [web/search, web/fetch]
 ---
 Answer research questions with sources.
