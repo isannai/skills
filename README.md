@@ -173,13 +173,31 @@ isann skill price sample-ls --free      # pricing IS the listing
 Run `isann auth unlock` first - the upload is signed with your owner wallet.
 Publishing re-checks the ASCII rule before distributing.
 
-## Adding a skill to this repo
+## Writing a skill
+
+Full guide: **[docs/skills.md](docs/skills.md)** - frontmatter field by field,
+writing a body a model can act on, `scripts:` and the argument contract,
+`endpoint:` and selling, and the mistakes people actually hit.
+
+Start from the shared rules in **[docs/overview.md](docs/overview.md)**: where
+files live, the ASCII constraint, how IDs work, and the difference between being
+injected and being allowed to run.
+
+The short version:
+
+```
+my-skill/
+  SKILL.md          required - the header + the know-how
+  scripts/run.py    optional - what actually executes
+  sample.csv        optional - data the skill ships with
+```
 
 Commit the folder. There is no index file to update - the tree is the catalog.
 
-```
-examples/my-skill/
-  SKILL.md          required
-  scripts/run.py    optional
-  sample.csv        optional data the skill ships with
-```
+## Documentation
+
+| | |
+|---|---|
+| [docs/overview.md](docs/overview.md) | Capabilities overview - shared rules for skills and tools, and P2P execution |
+| [docs/skills.md](docs/skills.md) | Writing a skill (this repo's subject) |
+| [docs/tools.md](docs/tools.md) | Writing a tool - the things a skill declares in `tools:` |
