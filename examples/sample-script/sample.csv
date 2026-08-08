@@ -1,0 +1,7 @@
+region,amount,qty,price
+east,1200,3,400.0
+west,850,2,425.0
+east,300,1,300.0
+south,9800,7,1400.0
+west,500,5,100.0
+north,760,4,190.0
